@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Hightlights from "./components/Hightlights";
+import Highlights from "./components/Highlights";
 
 function App() {
     return (
         <main className="bg-black">
-            <Navbar /> <Hero /> <Hightlights />
+            <Navbar />
+            <Hero />
+            <Highlights />
         </main>
     );
 }
