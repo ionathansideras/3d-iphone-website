@@ -54,10 +54,10 @@ const VideoCarousel = () => {
 
         if (span[videoId]) {
             // animation to move the indicator
-            let anim = gsap.to(span[videoId], {
+            let animation = gsap.to(span[videoId], {
                 onUpdate: () => {
                     // get the progress of the video
-                    const progress = Math.ceil(anim.progress() * 100);
+                    const progress = Math.ceil(animation.progress() * 100);
 
                     if (progress != currentProgress) {
                         currentProgress = progress;
@@ -94,12 +94,12 @@ const VideoCarousel = () => {
             });
 
             if (videoId == 0) {
-                anim.restart();
+                animation.restart();
             }
 
             // update the progress bar
             const animUpdate = () => {
-                anim.progress(
+                animation.progress(
                     videoRef.current[videoId].currentTime /
                         highlightsSlides[videoId].videoDuration
                 );
