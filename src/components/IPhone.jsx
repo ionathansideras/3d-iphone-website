@@ -26,7 +26,6 @@ export default function IPhone(props) {
         Object.entries(materials).map((material) => {
             if (material[0] === "pIJKfZsazmcpEiU") {
                 material[1].map = texture;
-                console.log("material", material);
             }
             material[1].needsUpdate = true;
         });

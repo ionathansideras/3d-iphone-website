@@ -29,8 +29,15 @@ export default function HowItWorks() {
     return (
         <section className="common-padding">
             <div className="screen-max-width">
-                <div id="chip" className="flex-center w-full my-20">
-                    <img src={chipImg} alt="chip" width={180} height={180} />
+                <div className="flex-center w-full my-20">
+                    <img
+                        src={chipImg}
+                        id="chip"
+                        alt="chip"
+                        width={180}
+                        height={180}
+                        loading="lazy"
+                    />
                 </div>
                 <div className="flex flex-col items-center">
                     <h2 className="hiw-title">
@@ -48,6 +55,7 @@ export default function HowItWorks() {
                                 src={frameImg}
                                 alt="frame"
                                 className="bg-transparent relative z-10"
+                                loading="lazy"
                             />
                         </div>
                         <div className="hiw-video">

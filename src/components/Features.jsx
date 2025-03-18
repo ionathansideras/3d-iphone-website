@@ -73,6 +73,7 @@ export default function Features() {
                                         src={explore1Img}
                                         className="feature-video g_grow"
                                         alt="titanium"
+                                        loading="lazy"
                                     />
                                 </div>
                                 <div className="overflow-hidden flex-1 h-[50svh]">
@@ -80,6 +81,7 @@ export default function Features() {
                                         src={explore2Img}
                                         className="feature-video g_grow"
                                         alt="titanium"
+                                        loading="lazy"
                                     />
                                 </div>
                             </div>

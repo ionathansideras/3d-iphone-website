@@ -41,7 +41,7 @@ canvas {
 }
 
 .nav-height {
-    @apply h-[calc(100vh-60px)];
+    @apply h-[calc(100svh-60px)];
 }
 
 .btn {
@@ -121,7 +121,7 @@ canvas {
 }
 
 .video-carousel_container {
-    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh];
+    @apply relative sm:w-[70vw] w-[88vw] md:h-[70svh] sm:h-[50svh] h-[35svh];
 }
 
 .g_fadeIn {

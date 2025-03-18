@@ -30,7 +30,12 @@ export default function Highlights() {
                     <div className="flex flex-wrap items-end gap-5">
                         <p className="link">
                             Watch the film
-                            <img src={watchImg} alt="watch" className="ml-2" />
+                            <img
+                                src={watchImg}
+                                alt="watch"
+                                className="ml-2"
+                                loading="lazy"
+                            />
                         </p>
                         <p className="link">
                             Watch the event
@@ -38,6 +43,7 @@ export default function Highlights() {
                                 src={rightImg}
                                 alt="right-img"
                                 className="ml-2"
+                                loading="lazy"
                             />
                         </p>
                     </div>
