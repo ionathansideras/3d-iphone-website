@@ -56,6 +56,7 @@ export default function HowItWorks() {
                                 playsInline
                                 preload="none"
                                 muted
+                                loop
                                 ref={videoRef}
                                 autoPlay
                             >
