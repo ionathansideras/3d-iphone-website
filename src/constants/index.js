@@ -31,7 +31,7 @@ export const highlightsSlides = [
     {
         id: 3,
         textLists: [
-            "iPhone 15 Pro Max has the",
+            "iPhone 15 Pro has the",
             "longest optical zoom in",
             "iPhone ever. Far out.",
         ],
