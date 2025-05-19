@@ -134,7 +134,7 @@ const Model = () => {
                                 {sizes.map(({ label, value }) => (
                                     <span
                                         key={label}
-                                        className="size-btn"
+                                        className="size-btn cursor-pointer"
                                         style={{
                                             backgroundColor:
                                                 size === value
