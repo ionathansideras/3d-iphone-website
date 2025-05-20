@@ -48,7 +48,7 @@ export default function Hero() {
                         autoPlay
                         muted
                         playsInline={true}
-                        preload="true"
+                        preload="auto"
                         key={videoSrc}
                         className="pointer-events-none"
                     >
